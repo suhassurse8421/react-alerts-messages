@@ -1,0 +1,30 @@
+{
+  "name": "react-alerts-messages",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suhassurse8421/react-alerts-messages"
+  },
+  "description": "The Alert component is a reusable component for displaying messages to the user. It accepts two props: alertMessage and alertType. The alertMessage prop is a string that contains the message to be displayed, while the alertType prop is a string that specifies the type of alert to be displayed (such as \"success\", \"warning\", \"info\", etc.). The component applies appropriate CSS styles based on the alertType prop to give the message an appropriate visual appearance. The component can be used in a variety of contexts, such as form submissions, authentication flows, error handling, and more. By using this component, developers can provide consistent and visually appealing messages to their users, enhancing the overall user experience of their React applications.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Plainsurf Solutions, Suhas Surse",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "css-loader": "^6.7.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.80.0"
+  }
+}
